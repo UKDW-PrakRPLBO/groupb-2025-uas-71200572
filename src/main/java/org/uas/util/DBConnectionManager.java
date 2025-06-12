@@ -30,9 +30,10 @@ public class DBConnectionManager {
             try {
                 connection.close();
             } catch (SQLException e) {
-                System.out.println("Error closing connection: " + e.getMessage());
+                System.out.println("Error connection: " + e.getMessage());
             }
         }
     }
 }
-
+//
+//
